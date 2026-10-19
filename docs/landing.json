@@ -1,0 +1,24 @@
+{
+  "seo_title": "Mac thermal throttle monitor",
+  "seo_description": "Free, open-source menu bar app that shows your Mac's thermal state and sensor temperatures, and notifies you when it starts to throttle. Native, offline, macOS 14+.",
+  "hero_title_line1": "Know before your Mac",
+  "hero_title_accent": "slows down.",
+  "hero_sub": "ThermalThrottleWatch lives in your menu bar and shows the system thermal state and sensor temperatures at a glance. Click the thermometer for details, and get a notification when throttling begins.",
+  "features_title": "One question, answered clearly.",
+  "features_sub": "Is your Mac under thermal stress right now? Everything here exists to answer that, read-only and on-device.",
+  "features": [
+    {"icon": "cpu", "title": "Live sensor temperatures", "desc": "See current and peak values for CPU, GPU, memory, SSD, battery and ambient sensors. Only sensors that return a plausible reading on your Mac are listed."},
+    {"icon": "eye", "title": "Thermal state in the menu bar", "desc": "A thermometer icon is tinted by the system state: Nominal, Fair, Serious or Critical. Optionally show the hottest sensor's temperature beside it."},
+    {"icon": "bell", "title": "Alerts for throttling and recovery", "desc": "Get notified when the state reaches Serious or the hottest sensor passes your threshold (60 to 105 °C). A second notification tells you when it has cooled down."},
+    {"icon": "clock", "title": "30-minute trend and event log", "desc": "A sparkline tracks the hottest sensor, and each throttle episode is logged with its start time and duration for 14 days."},
+    {"icon": "sliders", "title": "Calm, tunable alerts", "desc": "Readings are smoothed, recovery needs a 3 °C drop, and the same condition notifies at most once every 5 minutes. Choose Celsius or Fahrenheit and a 2, 5 or 10 second refresh."},
+    {"icon": "shield", "title": "Read-only and private", "desc": "No fan control, no accounts, no servers and no analytics. If sensors cannot be read, it falls back to the system thermal state and tells you so."}
+  ],
+  "permissions_step": "Allow notifications when prompted (or in System Settings → Notifications) so alerts can reach you; no other permissions are needed.",
+  "faq": [
+    {"q": "Is ThermalThrottleWatch really free and open source?", "a": "Yes. It is released under the MIT license, with no ads, accounts or paywalls. The full source is on GitHub, and you can support development with the optional Support button."},
+    {"q": "What permissions does it need?", "a": "Only notifications, so it can warn you about throttling and recovery. Launch at login is optional, and it never asks for Accessibility, Screen Recording, Microphone, Camera or Location."},
+    {"q": "Where is my data stored?", "a": "On your Mac only. Settings are saved in app preferences, and the 14-day throttle event log is a JSON file in Application Support. Nothing is sent anywhere."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, which this free project doesn't have. Right-click the app and choose Open once to approve it, or build it from source with Xcode."}
+  ]
+}

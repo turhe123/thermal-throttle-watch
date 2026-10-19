@@ -1,0 +1,4 @@
+[
+  {"file":"01-popover.png","caption":"The menu bar popover shows the system thermal state, current and peak temperatures for each readable sensor, a 30-minute trend of the hottest sensor, and the throttle event log.","alt":"ThermalThrottleWatch popover with thermal state, sensor temperatures and sparkline"},
+  {"file":"02-settings.png","caption":"Settings let you pick Celsius or Fahrenheit, show the temperature in the menu bar, set the refresh rate and alert threshold, and launch at login.","alt":"ThermalThrottleWatch Settings window"}
+]

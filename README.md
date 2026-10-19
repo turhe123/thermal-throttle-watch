@@ -1,5 +1,7 @@
 # ThermalThrottleWatch
 
+**🌐 Website:** [turhe123.github.io/thermal-throttle-watch](https://turhe123.github.io/thermal-throttle-watch/)
+
 See your Mac's thermal pressure and sensor temperatures in the menu bar and get warned before it throttles.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -25,7 +27,13 @@ ThermalThrottleWatch is a free, open-source, 100% native, backend-free alternati
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popover.png" alt="ThermalThrottleWatch popover with thermal state, sensor temperatures and sparkline" width="720"></p>
+
+<p align="center"><em>The menu bar popover shows the system thermal state, current and peak temperatures for each readable sensor, a 30-minute trend of the hottest sensor, and the throttle event log.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ThermalThrottleWatch Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you pick Celsius or Fahrenheit, show the temperature in the menu bar, set the refresh rate and alert threshold, and launch at login.</em></p>
 
 ## Install
 
